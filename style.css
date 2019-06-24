@@ -1,0 +1,61 @@
+body{
+  background-color:#1B0050;
+}
+h1{
+  font-family: cursive;
+  font-size: 50px;
+  color:#82FFE5;
+}
+.earth{
+  border:dashed;
+  border-radius: 50px;
+  padding: 3%;
+  border-color: #00FF44;
+}
+.plane{
+  position:absolute;
+  left: 42%;
+  top: 80%;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+/* .container img {
+  width: 100%;
+  height: auto;
+} */
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-image: url("/Users/apple/Desktop/countries/assets/Screen Shot 2019-06-21 at 2.25.28 PM.png");
+  width: 13%;
+  height:50px;
+  /* height: auto; */
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+.answer{
+  font-family: cursive;
+  font-size: 30px;
+  color:#82FFE5;
+}
